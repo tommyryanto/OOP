@@ -14,6 +14,7 @@
 		16335452228B9CF900BC2DD8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 16335450228B9CF900BC2DD8 /* LaunchScreen.storyboard */; };
 		1633545C228BA89A00BC2DD8 /* LearnerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1633545B228BA89A00BC2DD8 /* LearnerModel.swift */; };
 		1633545E228BC4CC00BC2DD8 /* FacilitatorModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1633545D228BC4CC00BC2DD8 /* FacilitatorModel.swift */; };
+		16335460228BC98500BC2DD8 /* MenteeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1633545F228BC98500BC2DD8 /* MenteeModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		16335453228B9CF900BC2DD8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1633545B228BA89A00BC2DD8 /* LearnerModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearnerModel.swift; sourceTree = "<group>"; };
 		1633545D228BC4CC00BC2DD8 /* FacilitatorModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FacilitatorModel.swift; sourceTree = "<group>"; };
+		1633545F228BC98500BC2DD8 /* MenteeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenteeModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 				1633545B228BA89A00BC2DD8 /* LearnerModel.swift */,
 				1633545D228BC4CC00BC2DD8 /* FacilitatorModel.swift */,
 				16335449228B9CF800BC2DD8 /* ViewController.swift */,
+				1633545F228BC98500BC2DD8 /* MenteeModel.swift */,
 				1633544B228B9CF800BC2DD8 /* Main.storyboard */,
 				1633544E228B9CF900BC2DD8 /* Assets.xcassets */,
 				16335450228B9CF900BC2DD8 /* LaunchScreen.storyboard */,
@@ -141,6 +144,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				16335460228BC98500BC2DD8 /* MenteeModel.swift in Sources */,
 				1633545E228BC4CC00BC2DD8 /* FacilitatorModel.swift in Sources */,
 				1633544A228B9CF800BC2DD8 /* ViewController.swift in Sources */,
 				1633545C228BA89A00BC2DD8 /* LearnerModel.swift in Sources */,

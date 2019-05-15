@@ -43,6 +43,10 @@ extension ViewController{
             nameLabel.text = learnerObject.name
             ageLabel.text = "\(learnerObject.age)"
             heightLabel.text = "\(learnerObject.height)"
+        }else if let learnerObject = learner{
+            nameLabel.text = learnerObject.name
+            ageLabel.text = "\(learnerObject.age)"
+            heightLabel.text = "\(learnerObject.height)"
         }
     }
 }
