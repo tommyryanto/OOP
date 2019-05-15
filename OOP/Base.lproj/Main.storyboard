@@ -53,17 +53,25 @@
                                     <action selector="increaseAgeButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="BkG-hr-53l"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wDt-7k-a13" customClass="RoundedButton" customModule="OOP" customModuleProvider="target">
+                                <rect key="frame" x="20" y="433" width="374" height="30"/>
+                                <state key="normal" title="Button"/>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="OCb-St-Pzb" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="9AN-RX-CTH"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="wDt-7k-a13" secondAttribute="trailing" constant="20" id="B61-UX-28a"/>
+                            <constraint firstItem="wDt-7k-a13" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="BP2-uw-MwN"/>
                             <constraint firstItem="zhk-Cf-dgj" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="BPq-2g-aLq"/>
                             <constraint firstItem="NFy-V5-Q6j" firstAttribute="top" secondItem="zhk-Cf-dgj" secondAttribute="bottom" constant="55" id="K4G-uH-ITG"/>
                             <constraint firstItem="OCb-St-Pzb" firstAttribute="top" secondItem="ZUA-pu-eIg" secondAttribute="bottom" constant="22" id="Px6-lF-6aa"/>
+                            <constraint firstItem="wDt-7k-a13" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="UsH-Ac-DnK"/>
                             <constraint firstItem="VtX-RR-pEl" firstAttribute="top" secondItem="zhk-Cf-dgj" secondAttribute="bottom" constant="20" id="WCI-M8-R6H"/>
                             <constraint firstItem="zhk-Cf-dgj" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="87" id="b8t-xA-Rdc"/>
                             <constraint firstItem="ZUA-pu-eIg" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="c16-Dv-Uy0"/>
                             <constraint firstItem="NFy-V5-Q6j" firstAttribute="leading" secondItem="ZUA-pu-eIg" secondAttribute="trailing" constant="44" id="cmJ-SF-ojP"/>
+                            <constraint firstItem="wDt-7k-a13" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="get-Ee-hX7"/>
                             <constraint firstItem="ZUA-pu-eIg" firstAttribute="top" secondItem="VtX-RR-pEl" secondAttribute="bottom" constant="14" id="urf-kg-O8G"/>
                             <constraint firstItem="VtX-RR-pEl" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="ww8-WR-9fH"/>
                         </constraints>
@@ -78,6 +86,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="47.826086956521742" y="20.758928571428569"/>
         </scene>
     </scenes>
 </document>
